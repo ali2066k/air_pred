@@ -11,7 +11,7 @@ from monai.data import Dataset, DataLoader, decollate_batch
 from utils import get_model  # Ensure this function is available for loading your model
 
 # Set up inference parameters
-MODEL_CHECKPOINT = "/content/models/bel_old/best_metric_awc_64-0.87.ckpt"  # Update with your model path
+MODEL_CHECKPOINT = "/content/models/bel_old/best_metric_model.ckpt"  # Update with your model path
 INPUT_IMAGE_DIR = "/content/data_samples/imagesTr/"  # Directory containing NIfTI images
 INPUT_LUNG_DIR = "/content/data_samples/lungsTr/"  # Directory containing NIfTI lung masks
 OUTPUT_DIR = "/content/data_samples/predsTr/"  # Where to save results
